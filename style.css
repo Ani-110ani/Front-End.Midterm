@@ -161,7 +161,7 @@ a {
 
 .go-pro {
   color: var(--pink);
-  font-weight: 700;
+  font-weight: 400;
   font-size: 14px;
   cursor: pointer;
 }
@@ -177,10 +177,10 @@ a {
   background-color: var(--pink);
   color: var(--white);
   border: none;
-  padding: 10px 25px;
-  border-radius: 20px;
+  padding: 18px 25px;
+  border-radius: 10px;
   font-family: "Nunito Sans", sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   cursor: pointer;
 }
 
