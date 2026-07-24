@@ -300,6 +300,7 @@ a {
   flex-direction: column;
   gap: 10px;
   opacity: 0;
+  z-index: 10;
   transition: opacity 0.3s ease;
 }
 
@@ -321,6 +322,8 @@ a {
 .card-title {
   font-size: 14px;
   font-weight: 600;
+  color: var(--dark-2);
+  margin-top: 6px;
 }
 
 .load-more-center {
@@ -485,7 +488,6 @@ a {
   justify-content: space-between;
   align-items: center;
   padding-top: 25px;
-  border-top: 1px solid var(--gray-1);
 }
 
 .social-icons {
