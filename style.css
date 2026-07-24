@@ -218,3 +218,128 @@ a {
   width: 18px;
   height: 18px;
 }
+
+.gallery-section {
+  padding: 40px;
+}
+
+.filters-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.category-tabs {
+  display: flex;
+  gap: 15px;
+}
+
+.tab {
+  background: none;
+  border: none;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 14px;
+  color: var(--dark-2);
+  cursor: pointer;
+  padding: 13px 15px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.tab.active-tab,
+.tab:hover {
+  background-color: var(--gray-1);
+}
+
+.filter-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: none;
+  border: 1px solid var(--gray-2);
+  padding: 10px 18px;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 30px;
+}
+
+.card {
+  cursor: pointer;
+}
+
+.card-image-wrapper {
+  position: relative;
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+
+.card-img {
+  width: 100%;
+  display: block;
+  border-radius: 15px;
+  transition: transform 0.3s ease;
+}
+
+.card-hover-actions {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.hover-icon {
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 36px;
+  height: 36px;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.card-image-wrapper:hover .card-hover-actions {
+  opacity: 1;
+}
+
+.card-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.load-more-center {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.main-load-btn {
+  background-color: var(--gray-1);
+  color: var(--dark-2);
+  border: none;
+  padding: 15px 0;
+  width: 100%;
+  max-width: 350px;
+  border-radius: 12px;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.main-load-btn:hover {
+  background-color: var(--gray-2);
+}
