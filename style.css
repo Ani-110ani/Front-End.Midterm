@@ -347,3 +347,107 @@ a {
 .main-load-btn:hover {
   background-color: var(--gray-2);
 }
+
+.top-designers-section {
+  padding: 40px;
+  border-top: 1px solid var(--gray-1);
+  background-color: var(--gray-3);
+}
+
+.top-designers-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.top-designers-header h2 {
+  font-size: 30px;
+  font-weight: 700;
+  color: var(--dark-2);
+}
+
+.top-designers-header a {
+  color: var(--gray-2);
+  font-size: 14px;
+  font-weight: 400;
+  transition: 0.3s;
+}
+
+.top-designers-header a:hover {
+  color: var(--dark-2);
+}
+
+.designers-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.designers-list::-webkit-scrollbar {
+  display: none;
+}
+
+.designer-card {
+  background: none;
+  padding: 0;
+  text-align: center;
+  min-width: 130px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.designer-card img {
+  width: 95px;
+  height: 95px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 14px;
+}
+
+.designer-card h4 {
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 4px;
+  line-height: 1.3;
+  color: var(--dark-2);
+}
+
+.designer-card p {
+  font-size: 11px;
+  color: var(--gray-2);
+  margin-bottom: 15px;
+}
+
+.follow-btn {
+  background-color: var(--white);
+  border: 1px solid var(--gray-2);
+  padding: 8px 0;
+  width: 100%;
+  max-width: 100px;
+  border-radius: 8px;
+  font-family: "Nunito Sans", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--dark-2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.follow-btn:hover {
+  border-color: var(--dark-2);
+}
+
+.following-state {
+  background-color: var(--gray-1);
+  border: none;
+  color: var(--dark-2);
+}
+
+.following-state:hover {
+  background-color: var(--gray-2);
+}
