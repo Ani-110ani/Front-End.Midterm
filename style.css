@@ -140,9 +140,13 @@ a {
   display: flex;
   align-items: center;
   background-color: var(--bg-light);
-  border-radius: 20px;
-  padding: 10px 20px;
+  border-radius: 12px;
+  padding: 12px 20px;
   width: 300px;
+  img {
+    width: 16px;
+    height: 16px;
+  }
 }
 
 .search-bar input {
